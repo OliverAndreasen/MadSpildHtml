@@ -12,7 +12,6 @@ body {
 nav {
     background-color: #233249;
     display: flex;
-    justify-content: space-between;
 }
 
  li {
@@ -60,6 +59,8 @@ nav li:hover {
 
 .util {
     display: flex;
+    position: absolute;
+    right: 0vw;
 }
 
 .util p {
@@ -208,7 +209,7 @@ nav li:hover {
 }
 
 .info-text p {
-    padding-top: 20px;
+    padding-top: 16px;
 }
 
 .hidden {
@@ -226,6 +227,8 @@ nav li:hover {
     font-family: "Helvetica Neue Condensed",sans-serif;
     font-size: 1.2em;
     padding-top:80px;
+
+
 }
 
 footer li{
@@ -236,6 +239,9 @@ footer li{
 
 footer li:first-child{
     font-size: 1.8em;
+}
+
+footer li a{
     font-weight: bold;
 }
 
